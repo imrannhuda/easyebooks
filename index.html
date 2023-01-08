@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Easyebooks · Ebook reading made easy</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Easyebooks is a digital library that makes reading ebooks easy.">
+
+  <!-- CSS files -->
+  <link rel="stylesheet" href="vendors/css/normalize.css">
+  <link rel="stylesheet" href="vendors/css/grid.css">
+  <link rel="stylesheet" href="vendors/css/animate.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/queries.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+  <link rel="manifest" href="resources/favicons/site.webmanifest">
+  <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#96281b">
+  <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#96281b">
+  <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#96281b">
+</head>
+
+<body>
+  <!-- Section: Home -->
+  <header>
+    <nav>
+      <div class="row">
+        <a href="#" class="logo"><ion-icon name="book"></ion-icon>Easyebooks</a>
+
+        <a class="mobile-navigation-icon js--mobile-navigation-icon">
+          <ion-icon name="menu"></ion-icon>
+        </a>
+        
+        <ul class="navigation-links js--navigation-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#section-about">About</a></li>
+          <li><a href="#section-books">Books</a></li>
+          <li><a href="#section-contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-text-box">
+      <h1>Ebook reading<br>made easy.</h1>
+      <a href="#section-books" class="btn btn-full">Start reading</a>
+      <a href="#section-about" class="btn btn-ghost">Learn more</a>
+    </div>
+  </header>
+
+  <!-- Section: About -->
+  <section class="section-about js--section-about" id="section-about">
+    <div class="row">
+      <h2>Designed to make reading easier.</h2>
+      <p class="section-description">Building a reading habit is one of the best gifts you can give yourself. But we understand reading can be difficult, and we have designed the system with that in mind.</p>
+    </div>
+
+    <div class="row features js--features">
+      <div class="col span-1-of-4">
+        <ion-icon class="feature-icon" name="laptop"></ion-icon>
+        <h3>Simple interface</h3>
+        <p class="feature-description">The interface has a minimalist design so as not to clutter the screen with extensive features.</p>
+      </div>
+
+      <div class="col span-1-of-4">
+        <ion-icon class="feature-icon" name="eye"></ion-icon>
+        <h3>Distraction free</h3>
+        <p class="feature-description">There are no ads or images displayed in the books so you are left to your imagination undisturbed.</p>
+      </div>
+
+      <div class="col span-1-of-4">
+        <ion-icon class="feature-icon" name="moon"></ion-icon>
+        <h3>Dark mode</h3>
+        <p class="feature-description">You can enable the dark mode to give your eyes a break at night.</p>
+      </div>
+
+      <div class="col span-1-of-4">
+        <ion-icon class="feature-icon" name="happy"></ion-icon>
+        <h3>Start reading immediately</h3>
+        <p class="feature-description">There are no fees, registration or apps required for you to start reading.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Books -->
+  <section class="section-books" id="section-books">
+    <div class="row">
+      <h2>Click on a book to start reading.</h2>
+    </div>
+
+    <div class="booklist">
+      <div class="row">
+        <div class="col span-1-of-2 box">
+          <ul>
+            <li><a href="books/01_northanger_abbey/contents.html">1. Northanger Abbey by Jane Austen</a></li>
+          </ul>
+        </div>
+
+        <div class="col span-1-of-2 box">
+          <ul>
+            <li><a href="books/02_sherlock_holmes/contents.html">2. The Adventures of Sherlock Holmes by Arthur Conan Doyle</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Contact -->
+  <section class="section-contact" id="section-contact">
+    <div class="row">
+      <h2>We're happy to hear from you.</h2>
+    </div>
+
+    <form action="#" method="post">
+      <div class="row">
+        <label for="name" class="col span-1-of-4">Name:</label>
+        <input type="text" id="name" name="user_name" class="col span-3-of-4" required>
+      </div>
+
+      <div class="row">
+        <label for="email" class="col span-1-of-4">Email:</label>
+        <input type="email" id="email" name="user_mail" class="col span-3-of-4" required>
+      </div>
+
+      <div class="row">
+        <label for="message" class="col span-1-of-4">Message:</label>
+        <textarea name="user_message" id="message" class="col span-3-of-4" required></textarea>
+      </div>
+
+      <div class="button">
+        <button type="submit" class="btn btn-full">Send message</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Section: Footer -->
+  <footer>
+    <div class="row">
+      <p>Website designed and developed by <a href="https://imrannhuda.github.io/">Imran N</a>.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="resources/js/script.js"></script>
+</body>
+</html>
